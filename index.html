@@ -4,16 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EAM Tutorial 10</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
 </head>
 <body>
     <header><h2>EAM Tutorial 10</h2></header>
+    <nav>
+        <div class="toggle">
+            <div class="menu"><i class="fa fa-bars" aria-hidden="true"></i></div>
+        </div>
 
-    <section class="introduction">
+        <ul>
+            <li> <a href="#introduction"> Introduction </a> </li>
+            <li> <a href="#product"> Product </a> </li>
+            <li> <a href="#product-features"> Features </a> </li>
+            <li> <a href="#applications"> Applications </a> </li>
+            <!-- <li> <a href="#"> Contact </a> </li> -->
+        </ul>
+    </nav>
+
+    <section class="introduction" id="introduction">
         <h2>Introduction</h2>
-    </section>
 
-    <section class="product">
+        <p>
+            A total of 8.73M individuals in India were infected with this covid-19 outbreak. 
+            There has been an exponential increase in the number of COVID-19 cases in the span 
+            of March to November. There has been a growing incidence of COVID 19, despite the 
+            introduction of lockdown initiatives, including travel bans in India and worldwide. 
+            As lockdown steps are relaxed in varying capacities across countries, the number 
+            continues to increase. In these turbulent times of Coronavirus and lockdown, the 
+            use of technology to tackle the infectious virus has been at the forefront. So, 
+            killing viruses and preventing them from reproducing with the use of technology 
+            is a need of the time.  UV-C Air purifier is a proven air purification technology 
+            that disinfects the air by emitting UV-C rays which kill bacteria, viruses, and 
+            fungi by disrupting the DNA of microorganisms, preventing them from reproducing.
+        </p>
+
+    </section>
+    <img src="./img/product_image.jpeg" alt="" id="product_image">
+
+    <section class="product" id="product">
         <h2>Our Product</h2>
 
         <p>
@@ -30,8 +61,8 @@
         </p>
     </section>
 
-    <section class="product-features">
-        <h3>Features</h3>
+    <section class="product-features" id="product-features">
+        <h2>Features</h2>
 
         <p>
             Whether customers need air purifiers or air cleaners to address air pollution, 
@@ -69,7 +100,7 @@
         </p>
     </section>
 
-    <section class="applications">
+    <section class="applications" id="applications">
         <h2>Applications</h2>
 
         <ul>
@@ -128,5 +159,14 @@
             <h3>Date: 13 / 11 / 2020</h3>
         </section>
     </footer> -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('.menu').click(function() {
+                $('ul').toggleClass('active');
+            })
+        })
+    </script>
 </body>
 </html>
