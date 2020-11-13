@@ -41,11 +41,7 @@ header h2 {
     float: right;
     margin: 70px 50px 0 0;
     max-width: 350px;
-    max-height: 390px;
-}
-
-.image {
-    max-width: 350px;
+    box-shadow: 9px 9px 25px grey;
     max-height: 390px;
 }
 
@@ -95,7 +91,7 @@ header h2 {
     /* border: 1px solid black; */
     padding-top: 20px;
     height: 600px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .applications ul {
@@ -107,6 +103,21 @@ header h2 {
     margin: 5px 0 30px 0;
 }
 
+#results{
+    padding-top: 20px;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+#results h2 {
+    margin: 20px 20px 20px 10px;
+}
+
+#results img {
+    max-width: 500px;
+    max-height: 450px;
+}
 
 footer {
     margin-top: 100px;
