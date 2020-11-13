@@ -19,24 +19,6 @@ header h2 {
     font-size: 28px;
 }
 
-.introduction{
-    width: 60%;
-    /* margin: auto; */
-    margin-left: 100px;
-    display: inline-block;
-    /* border: 1px solid black; */
-    height: 300px;
-    padding-top: 20px;
-    margin-top: 80px;
-    margin-bottom: 50px;
-}
-
-.introduction p {
-    float: left;
-    width: 90%;
-    margin-top: 20px;
-}
-
 #product_image {
     float: right;
     margin: 70px 50px 0 0;
@@ -46,18 +28,22 @@ header h2 {
 }
 
 .product{
-    width: 80%;
-    margin: auto;
-    /* border: 1px solid black; */
     height: 250px;
     padding-top: 20px;
-    margin-top: 50px;
+    width: 60%;
+    margin-left: 100px;
+    display: inline-block;
+    height: 300px;
+    padding-top: 20px;
+    margin-top: 80px;
     margin-bottom: 50px;
 }
 
 .product p {
-    margin-top: 20px;
     line-height: 1.5;
+    float: left;
+    width: 90%;
+    margin-top: 20px;
 }
 
 .product-features{
@@ -68,7 +54,7 @@ header h2 {
     border: 1px solid black;
     height: 750px;
     padding: 40px 125px;
-    /* margin-top: 50px; */
+    margin-top: 100px;
     margin-bottom: 50px;
 }
 
@@ -101,22 +87,6 @@ header h2 {
 
 .applications p {
     margin: 5px 0 30px 0;
-}
-
-#results{
-    padding-top: 20px;
-    width: 80%;
-    margin: auto;
-    /* border: 1px solid black; */
-}
-
-#results h2 {
-    margin: 20px 20px 20px 10px;
-}
-
-#results img {
-    max-width: 500px;
-    max-height: 450px;
 }
 
 footer {
