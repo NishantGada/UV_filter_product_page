@@ -31,7 +31,6 @@ header h2 {
     margin-bottom: 50px;
 }
 
-
 .introduction p {
     float: left;
     width: 90%;
@@ -41,6 +40,11 @@ header h2 {
 #product_image {
     float: right;
     margin: 70px 50px 0 0;
+    max-width: 350px;
+    max-height: 390px;
+}
+
+.image {
     max-width: 350px;
     max-height: 390px;
 }
